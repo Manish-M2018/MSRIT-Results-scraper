@@ -6,7 +6,14 @@ A command line interface that is designed for automating the task of fetching th
 
 # Usage
 
-<pre> -y <year(yy)> -b <branch extension(XX)> -m <max range of USN> </pre>  
+<b>Download to the local machine</b> <br>
+<pre>
+git clone 
+</pre>
+
+<pre> 
+ -y <year(yy)> -b <branch extension(XX)> -m <max range of USN> 
+</pre>  
  
 <br>
 
