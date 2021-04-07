@@ -6,19 +6,28 @@ A command line interface that is designed for automating the task of fetching th
 
 # Usage
 
-<b>Download to the local machine</b> <br>
+<b>Clone the repository to the local machine</b> <br>
 <pre>
 git clone https://github.com/Manish-M2018/MSRIT-Results-scraper.git
 </pre>
 
+<b> Change directory </b> <br>
+<pre>
+cd MSRIT-Results-scraper
+</pre>
+
+<b> Using the tool </b> <br>
+<pre>
+python results_cmd_tool.py -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -m &lt;max range of USN&gt; 
+</pre>
+
+<b> Arguments </b> <br>
 <pre> 
  -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -m &lt;max range of USN&gt; 
 </pre>  
  
-<br>
-
+<b> Options </b> <br>
 <pre>
-Options:<br>
   -h, --help            show this help message and exit  <br>
   -y YEAR, --year=YEAR  specify the last two digits of the year <br>
   -b BRANCH, --branch=BRANCH
@@ -26,6 +35,15 @@ Options:<br>
   -m MAX, --max=MAX     specify the max limit of USNs <br>
 </pre>
 
+<b> Example usage </b> <br>
+Let us take the example where we want to retrieve the results of the students from USN 1 to 10 in Computer Science (CS) branch who joined the college in the year 2018<br>
+<pre>
+python results_cmd_tool.py -y 18 -b CS -m 10
+</pre>
+<b>(OR)</b> <br>
+<pre>
+python results_cmd_tool.py --year 18 --branch CS --max 10
+</pre>
 
 # Normal code for scraping the results of a single student (scraper.py)
 This is a piece of code in Python to scrape the results of a student of MSRIT.<br>
