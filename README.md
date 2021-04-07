@@ -1,7 +1,19 @@
 # MSRIT-Results-scraper
 
-# Command line tool usage (cmd_tool.py):
+# Results scraper cli tool (results_cmd_tool.py)
 
+A command line interface that is designed for automating the task of fetching the results and displaying it using a HTML file<br>
+
+# Usage
+
+-y <year(yy)> -b <branch extension(XX)> -m <max range of USN>   <br>
+
+Options:<br>
+  -h, --help            show this help message and exit  <br>
+  -y YEAR, --year=YEAR  specify the last two digits of the year <br>
+  -b BRANCH, --branch=BRANCH
+                        specify the branch extension  <br>
+  -m MAX, --max=MAX     specify the max limit of USNs <br>
 
 
 # Normal code for scraping the results of a single student (scraper.py)
