@@ -12,7 +12,7 @@ git clone https://github.com/Manish-M2018/MSRIT-Results-scraper.git
 </pre>
 
 <pre> 
- -y \<year(yy)> -b \<branch extension(XX)> -m \<max range of USN> 
+ -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -m &lt;max range of USN&gt; 
 </pre>  
  
 <br>
