@@ -2,7 +2,7 @@
 
 # Results scraper cli tool (results_cmd_tool.py)
 
-A command line interface that is designed for automating the task of fetching the results and displaying it using a HTML file<br>
+A command line interface that is designed for automating the task of fetching the results and displaying it in a tabular format<br>
 
 # Usage
 
