@@ -48,8 +48,20 @@ python results_cmd_tool.py -y 18 -b CS -m 10
 python results_cmd_tool.py --year 18 --branch CS --max 10
 </pre>
 
+# Where can I view the results that were fetched?
+- The results that were fetched from the website is stored in a file called <b>results.html</b> in the same directory
+- Open the file <b>results.html</b> in order to view the results in a tabular format on the browser
+
+# Points to note
+- Make sure that the website is not down for maintenance before using the tool
+- Do not use the tool for disrupting the normal functioning of the website
+- The tool does not store the results anywhere online (results are fetched on the spot)
+- Make sure you have an active internet connection while using the tool 
+- Some USNs in the range may not be available due to various reasons
+
+<br><br>
 # Normal code for scraping the results of a single student (scraper.py)
-This is a piece of code in Python to scrape the results of a student of MSRIT.<br>
+This is a piece of code in Python to scrape the results of a single student of MSRIT.<br>
 Take a look at this new results feature in action on [MSRIT Connect](https://play.google.com/store/apps/details?id=msrit.msritconnect.com.msritconnect&hl=en)!<br>
 <br>
 Replace <i>"USN Goes Here"</i> with your <i>USN</i> to fetch the result :) <br>
