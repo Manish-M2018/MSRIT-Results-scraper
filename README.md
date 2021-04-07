@@ -6,14 +6,18 @@ A command line interface that is designed for automating the task of fetching th
 
 # Usage
 
--y <year(yy)> -b <branch extension(XX)> -m <max range of USN>   <br>
+-y <year(yy)> -b <branch extension(XX)> -m <max range of USN>   
+ 
+<br>
 
+<pre>
 Options:<br>
   -h, --help            show this help message and exit  <br>
   -y YEAR, --year=YEAR  specify the last two digits of the year <br>
   -b BRANCH, --branch=BRANCH
                         specify the branch extension  <br>
   -m MAX, --max=MAX     specify the max limit of USNs <br>
+</pre>
 
 
 # Normal code for scraping the results of a single student (scraper.py)
