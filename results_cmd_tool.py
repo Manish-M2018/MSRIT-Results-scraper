@@ -6,8 +6,6 @@ import urllib.parse
 import urllib.request
 from bs4 import BeautifulSoup
 import optparse
-import sys
-from termcolor import colored, cprint
 
 
 branches = ['CS', 'EC', 'IS', 'ME', 'ML', 'CH', 'CV', 'EE', 'TI', 'EI', 'IM', 'AT', 'BT']
@@ -76,7 +74,7 @@ def is_int(y):
 
 def validate_parameters(year, branch, max_range, parser):
     if not year or not branch or not max_range:
-        cprint(parser.usage, 'red')
+        print(parser.usage)
         exit(0)
     
     else:
@@ -85,17 +83,17 @@ def validate_parameters(year, branch, max_range, parser):
             if len(year) == 2:
                 pass
             else:
-                cprint("Enter only the last 2 digits for year (yy)", "red")
+                print("Enter only the last 2 digits for year (yy)")
                 exit(1)
         else:
-            cprint("The year should be an integer", "red")
+            print("The year should be an integer")
             exit(2)
         
         # Validating the branch entered by the user
         if branch in branches:
             pass
         else:
-            cprint("Enter a valid branch extension such as: ", "red")
+            print("Enter a valid branch extension such as: ")
             for b in branches:
                 print(b, end=' ')
             print("\n")
@@ -104,7 +102,7 @@ def validate_parameters(year, branch, max_range, parser):
         if is_int(max_range):
             pass
         else:
-            cprint("Enter a valid integer for max range of USNs")
+            print("Enter a valid integer for max range of USNs")
             exit(4)
 
 
@@ -112,9 +110,9 @@ def make_usn(y, b, n):
     usn = '1MS' + y + b 
     num = str(n)
 
-    if len(num)<2:
+    if len(num) < 2:
         usn = usn + '00' + num
-    elif len(num)<3:
+    elif len(num) < 3:
         usn = usn + '0' + num
     else:
         usn = usn + num
