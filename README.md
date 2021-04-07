@@ -23,7 +23,7 @@ python results_cmd_tool.py -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -
 
 <b> Arguments </b> <br>
 <pre> 
- -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -m &lt;max range of USN&gt; 
+-y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -m &lt;max range of USN&gt; 
 </pre>  
  
 <b> Options </b> <br>
