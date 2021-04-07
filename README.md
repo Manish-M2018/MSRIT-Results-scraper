@@ -35,6 +35,9 @@ python results_cmd_tool.py -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -
   -m MAX, --max=MAX     specify the max limit of USNs <br>
 </pre>
 
+<b> Allowed branches for option -b or --branch</b> <br>
+CS, EC, IS, ME, ML, CH, CV, EE, TI, EI, IM, AT, BT
+
 <b> Example usage </b> <br>
 Let us take the example where we want to retrieve the results of the students from USN 1 to 10 in Computer Science (CS) branch who joined the college in the year 2018<br>
 <pre>
