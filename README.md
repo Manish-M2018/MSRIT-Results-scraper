@@ -6,7 +6,7 @@ A command line interface that is designed for automating the task of fetching th
 
 # Usage
 
--y <year(yy)> -b <branch extension(XX)> -m <max range of USN>   
+<pre> -y <year(yy)> -b <branch extension(XX)> -m <max range of USN> </pre>  
  
 <br>
 
