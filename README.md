@@ -1,9 +1,11 @@
 # MSRIT-Results-scraper
 <br>
-<b>Sample result of a student (usn, name, cgpa, sgpa and grades are blurred in the pic)</b>
+<b>Sample result of a student</b>
 <br>
 
 ![Sample Result of a student](https://github.com/Manish-M2018/MSRIT-Results-scraper/blob/master/images/sample_result.png)
+
+Note: The usn, name, cgpa, sgpa and grade fields are blurred in the pic for privacy reasons
 
 
 # Results scraper cli tool (results_cmd_tool.py)
