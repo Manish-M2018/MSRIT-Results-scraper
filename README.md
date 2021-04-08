@@ -1,5 +1,10 @@
 # MSRIT-Results-scraper
 
+![Sample Result of a student](https://github.com/Manish-M2018/MSRIT-Results-scraper/blob/master/images/sample_result.png)
+<br>
+<b>Sample result of a student</b>
+<br>
+
 # Results scraper cli tool (results_cmd_tool.py)
 
 A command line interface that is designed for automating the task of fetching the results of students from http://exam.msrit.edu/ and displaying it in a tabular format on the browser<br>
