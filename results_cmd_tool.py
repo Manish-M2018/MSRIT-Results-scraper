@@ -78,6 +78,8 @@ def validate_parameters(year, branch, max_range, parser):
         exit(0)
     
     else:
+        branch = branch.upper()
+        
         # Validating the year entered by the user
         if is_int(year):
             if len(year) == 2:
@@ -131,13 +133,9 @@ def main():
     branch = options.branch
     max_range = options.max
 
-    try:
-        branch = branch.upper()
-    except:
-        print("Please enter a valid branch extension")
-        exit(5)
-
     validate_parameters(year, branch, max_range, parser)
+    
+    branch = branch.upper()
 
     text = """<html>
             <head>
