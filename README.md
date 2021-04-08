@@ -18,7 +18,7 @@ cd MSRIT-Results-scraper
 
 <b> Using the tool </b> <br>
 <pre>
-python results_cmd_tool.py -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -m &lt;max range of USN&gt; 
+python3 results_cmd_tool.py -y &lt;year(yy)&gt; -b &lt;branch extension(XX)&gt; -m &lt;max range of USN&gt; 
 </pre>
 
 <b> Arguments </b> <br>
