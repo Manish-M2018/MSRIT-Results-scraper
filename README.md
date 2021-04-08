@@ -2,6 +2,7 @@
 <br>
 <b>Sample result of a student (usn, name, cgpa, sgpa and grades are blurred in the pic)</b>
 <br>
+
 ![Sample Result of a student](https://github.com/Manish-M2018/MSRIT-Results-scraper/blob/master/images/sample_result.png)
 
 
