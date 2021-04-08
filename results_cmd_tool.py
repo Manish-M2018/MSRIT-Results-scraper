@@ -131,7 +131,11 @@ def main():
     branch = options.branch
     max_range = options.max
 
-    branch = branch.upper()
+    try:
+        branch = branch.upper()
+    except:
+        print("Please enter a valid branch extension")
+        exit(5)
 
     validate_parameters(year, branch, max_range, parser)
 
